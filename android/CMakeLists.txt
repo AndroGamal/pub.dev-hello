@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+# include_directories(../include)
+add_library(foo SHARED IMPORTED ../ios/main.cpp)
+# set_target_properties(test PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}/libfoo.so)
+# add_library(native_opencv SHARED ../ios/Classes/native_opencv.cpp)
+# target_link_libraries(native_opencv test)
